@@ -1,5 +1,5 @@
 package com.example.aulakotlindio
 
-enum class ClienteTipo(descricao:String) {
+enum class ClienteTipo(val descricao:String) {
     PF("Pessoa Fisíca"),PJ("Pessoa Jurídica")
 }
