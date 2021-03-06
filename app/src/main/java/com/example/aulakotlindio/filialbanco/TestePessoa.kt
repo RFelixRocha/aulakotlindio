@@ -4,8 +4,9 @@ import com.example.aulakotlindio.Pessoa
 
 fun main(){
 
-    var pessoa = Pessoa()
+    var pessoa = Pessoa("Felix","47920472")
 
-    println(pessoa.visualizarNomeCpf())
+    println(pessoa.nome)
+    println(pessoa.cpf)
 
 }
