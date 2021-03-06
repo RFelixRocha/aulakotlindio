@@ -1,8 +1,12 @@
 package com.example.aulakotlindio
 
 class Pessoa {
-    var nome : String = "Raimundo felix"
-    var cpf : String = "000.000.000-31"
+    var nome : String = "Raimundo Felix"
+    var cpf : String = "000.000.000-00"
+
+    inner class Endereco{
+        var rua: String = "Rua A"
+    }
 }
 
 fun main(){
@@ -10,4 +14,6 @@ fun main(){
 
     println(pessoa.nome)
     println(pessoa.cpf)
+
+    println(pessoa.Endereco().rua)
 }
