@@ -6,15 +6,10 @@ import java.math.BigDecimal
 
 fun main(){
 
-    var pessoa = Pessoa("Felix","47920472")
+    var analista = Analista("Felix","47920472",450.0)
 
-    println(pessoa.nome)
-    println(pessoa.cpf)
-    println("===========")
+    println(mostrarRelatorio(analista))
 
-    var funcionario = Funcionario("Fernando Junior","73497453", BigDecimal.valueOf(4456))
-
-    println(funcionario.nome)
-    println(funcionario.cpf)
-    println(funcionario.salario)
 }
+
+fun mostrarRelatorio(funcionario: Funcionario) = println(funcionario.toString())
