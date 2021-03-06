@@ -8,4 +8,5 @@ fun main(){
 
     println(ImprimirRelatorioFuncionario.mostrarRelatorio(gerente))
 
+    TesteAutenticacao().autentica(gerente)
 }
