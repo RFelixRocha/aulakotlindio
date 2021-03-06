@@ -2,7 +2,6 @@ package com.example.aulakotlindio.filialbanco
 
 import com.example.aulakotlindio.Cliente
 import com.example.aulakotlindio.ClienteTipo
-import com.example.aulakotlindio.Gerente
 
 fun main(){
 
